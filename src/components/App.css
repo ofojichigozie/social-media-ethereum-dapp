@@ -1,0 +1,17 @@
+/* Styles go here */
+.main {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.img-item {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 759px){
+    .main{
+        width: 90% !important;
+    }
+}
